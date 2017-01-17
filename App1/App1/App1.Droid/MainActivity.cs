@@ -20,7 +20,7 @@ namespace App1.Droid
             base.OnCreate(bundle);
             base.OnCreate(bundle);
             base.OnCreate(bundle);
-            //dfsdfsdfdh
+            //dfsdfsdfdhfsdf
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
