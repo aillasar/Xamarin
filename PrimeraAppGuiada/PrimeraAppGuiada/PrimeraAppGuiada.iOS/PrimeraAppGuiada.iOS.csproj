@@ -5,12 +5,12 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{EDE1C756-2F07-4B42-A4D3-C088DF052539}</ProjectGuid>
+    <ProjectGuid>{FB85D26D-19AD-4C80-943C-713291193A8A}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
-    <RootNamespace>App1.iOS</RootNamespace>
+    <RootNamespace>PrimeraAppGuiada.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>App1.iOS</AssemblyName>
+    <AssemblyName>PrimeraAppGuiada.iOS</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -138,9 +138,9 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\App1\App1.csproj">
-      <Project>{bdc91e69-0b44-4ac6-945c-9460bf7ebb76}</Project>
-      <Name>App1</Name>
+    <ProjectReference Include="..\PrimeraAppGuiada\PrimeraAppGuiada.csproj">
+      <Project>{11436550-6ea1-4fa5-ba6c-65edb14b9fad}</Project>
+      <Name>PrimeraAppGuiada</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

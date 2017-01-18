@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DE5D0249-924F-48F2-BBB9-BF5B451E7345}</ProjectGuid>
+    <ProjectGuid>{E924D07B-1ACC-423D-AEE4-1BAAFAC728ED}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>App1.Windows</RootNamespace>
-    <AssemblyName>App1.Windows</AssemblyName>
+    <RootNamespace>PrimeraAppGuiada.Windows</RootNamespace>
+    <AssemblyName>PrimeraAppGuiada.Windows</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformVersion>8.1</TargetPlatformVersion>
     <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
@@ -135,9 +135,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\App1\App1.csproj">
-      <Project>{bdc91e69-0b44-4ac6-945c-9460bf7ebb76}</Project>
-      <Name>App1</Name>
+    <ProjectReference Include="..\PrimeraAppGuiada\PrimeraAppGuiada.csproj">
+      <Project>{11436550-6ea1-4fa5-ba6c-65edb14b9fad}</Project>
+      <Name>PrimeraAppGuiada</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">

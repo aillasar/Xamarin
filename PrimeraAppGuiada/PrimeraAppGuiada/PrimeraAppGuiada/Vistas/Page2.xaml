@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PrimeraAppGuiada.Vistas.Page2">
+  <StackLayout Spacing="10" Padding="30">
+    <Label Text="Usuario"></Label>
+    <Entry Keyboard="Default" Placeholder="Introduce usuario"></Entry>
+    <Label Text="Pin"></Label>
+    <Entry Keyboard="Numeric" Placeholder="Solo numeros"></Entry>
+
+    <Button BackgroundColor="Blue">Enviar</Button>
+           
+  </StackLayout>
+</ContentPage>
